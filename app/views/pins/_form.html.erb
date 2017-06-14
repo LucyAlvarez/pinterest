@@ -18,6 +18,12 @@
 </div>
 <div class="form-group">
   <div class="field">
+    <%= form.label "Nombre" %>
+    <%= form.text_field :name, id: :pin_name, :class=>"form-control", :placeholder=>"Nombre" %>
+  </div>
+</div>
+<div class="form-group">
+  <div class="field">
     <%= form.label "Descripcion" %>
     <%= form.text_field :description, id: :pin_description, :class=>"form-control", :placeholder=>"Descripcion" %>
   </div>
