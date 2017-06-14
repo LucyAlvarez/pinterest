@@ -25,11 +25,11 @@
 <div class="form-group">
   <div class="field">
     <%= form.label "Descripcion" %>
-    <%= form.text_field :description, id: :pin_description, :class=>"form-control", :placeholder=>"Descripcion" %>
+    <%= form.text_field :description, id: :pin_description, :class=>"form-control", :placeholder=>"Descripcion", :rows=>"10", :cols=>"30"%>
   </div>
 </div>
   <div class="actions">
-    <%= form.submit %>
+    <%= form.submit "Crear", :class=>"btn"%>
   </div>
 
 <% end %>
