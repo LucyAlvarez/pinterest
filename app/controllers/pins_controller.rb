@@ -26,6 +26,7 @@ end
 
   # GET /pins/new
   def new
+    @pins = current_user.pins
     @pin = Pin.new
   end
 
