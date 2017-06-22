@@ -2,7 +2,7 @@
 <h1>Agregar Nuevo pin</h1>
 
 <div class="col-md-6">
-<%= render 'form', pin: @pin , :class=>"btn"%>
+<%= render 'form', pin: @pin , pins: @pins, :class=>"btn"%>
 
 <%= link_to 'Back', pins_path , :class=>"btn"%>
 </div>
